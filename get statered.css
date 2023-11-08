@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#22162B, #612B78 );
+    /* background-color: #22162B; 612B78 */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+form{
+    padding: 10px;
+    background-color: white;
+}
+
+.container{
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 1%;
+    height: 80vh;
+    border-radius: 5px;
+ 
+}
+.header{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.form div input{
+    width: 100%;
+    outline: none;
+    padding: 10px 30px;
+}
+
+
+.form div label{
+    margin-bottom: 5px;
+    display: block;
+    font-size: 15px;
+}
+
+.form div{
+    position: relative;
+    margin-bottom: 5px;
+    
+}
+
+
+
+/* style for icons */
+.form div i{
+    position: absolute;
+    padding: 10px;
+    
+}
+
+.success, .failure{
+    right: 0;
+    opacity: 0;
+}
+
+/* colour set for suuces and failure */
+
+.success{
+    color: green;
+}
+
+.failure{
+    color: red;
+}
+
+/* button design */
+button{
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+    height: 45%;
+    cursor: pointer;
+    color: white;
+    background-color: #22162B;
+}
+
+
+.error{
+    color: red;
+    font-size: 10px;
+}
+
+
+button:hover{
+    background-color: #7c1cc5;
+    transition: 1.2s;
+}
